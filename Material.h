@@ -2,10 +2,10 @@
 # define  MATERIAL_H
 # include  < iostream > _
 # include  < string.h >
-usando std :: string;
+using std :: string;
 clase  Material {
 privado:
-  int codigo;
+  int * codigo;
   string autor;
   string titulo;
   int anio;
@@ -13,7 +13,7 @@ privado:
   
 public:
   Material();
-  Material(string codigo, string autor, string titulo, string anio, string estado)
+  Material(int codigo[5], string autor, string titulo, string anio, string estado)
   int getCodigo();
   string getAutor();
   string getTitulo();
