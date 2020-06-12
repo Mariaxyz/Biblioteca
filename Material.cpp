@@ -1,7 +1,7 @@
 # include  < Material.h >
 # include  < iostream > _
 # include  < string.h >
-usando std :: string;
+using std :: string;
 
 Material :: Material () {
 	codigo = { 0 , 0 , 0 , 0 , 0 };
